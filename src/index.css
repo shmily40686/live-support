@@ -1,0 +1,113 @@
+body {
+	font-family: Roboto, Arial, Helvetica;
+	background-color: #c6eef0;
+}
+
+.mainContainer {
+	margin: auto;
+	margin-top: 50px;
+	width: 350px;
+	overflow: hidden;
+}
+
+.mainTabBlock {
+	display: block;
+	height: 34px;
+}
+
+.mainTab {
+	background-color: #354058;
+	color: #edf3f8;
+	font-size: 16px;
+	padding: 8px;
+	width: 175px;
+	text-align: center;
+	float: right;
+	border-top-right-radius: 2.5px;
+	border-top-left-radius: 2.5px;
+}
+
+.supporter {
+	background-color: #ecf5f6;
+	color: #354058;
+	font-size: 16px;
+	padding: 16px 24px 16px 24px;
+	vertical-align: middle;
+	text-align: left;
+	display: flex;
+}
+
+.supportImg {
+	border-radius: 50%;
+	height: 32px;
+	width: 32px;
+	margin-right: 10px;
+}
+
+.supportName {
+	margin-top: 8px;
+}
+
+.chatArea {
+	padding: 16px;
+	height: 150px;
+	background-color: #fafcfc;
+	overflow-y: scroll;
+	overflow-wrap: break-word;
+}
+
+.eachChat {
+	padding: 8px;
+}
+
+.msgAuthor {
+	font-size: 16px;
+	text-align: left;
+}
+
+.youMsg {
+	color: #5294FC;
+}
+
+.supMsg {
+	color: #354058;
+}
+
+.msgText {
+	color: #b0b4b9;
+	font-size: 14px;
+	text-align: left;
+}
+
+.userInput {
+	background-color: #edf3f8;
+	height: 80px;
+}
+
+.textInput {
+	width: 220px;
+    height: 50px;
+    margin: 15px 10px 10px 25px;
+    border: 1px solid #cbd3db;
+    border-radius: 2px;
+}
+
+.btnInput{
+	width: 70px;
+    height: 50px;
+    background-color: #4e93fe;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+/*
+
+dark blue #354058
+light blue #5294FC
+white #fafcfc
+top background blue ##ecf5f6
+bottom background blue #edf3f8
+btn blue #4e93fe
+text grey #cbd3db
+*/
